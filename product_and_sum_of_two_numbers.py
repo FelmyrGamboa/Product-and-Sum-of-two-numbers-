@@ -17,4 +17,9 @@ def calculate_two_integers(number_one, number_two):
     else:
         return numbers_sum
 
-#Print the results
+#Print the results with the given integer values
+integer_result = calculate_two_integers(20, 30)
+print("The result is ", integer_result)
+
+integer_result = calculate_two_integers(40, 30)
+print("The result is ", integer_result)
